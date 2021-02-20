@@ -1,0 +1,69 @@
+body,html {
+    /* color: #e4e3e3; */
+    margin: 0;
+    padding: 0;
+    font-family: Garamond;
+  }
+
+body{
+    background: linear-gradient(35deg, #ccffff, #ffcccc);  
+}
+
+#meat{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "emptyLeft header emptyRight" "emptyLeft buttons emptyRight" "emptyLeft box emptyRight"; 
+    justify-items: center;
+    align-items: center;
+}
+
+#header{
+    grid-area: header;
+}
+
+#options{
+    grid-area: buttons;
+    width: 60%;
+    /* border-style: solid; */
+}
+
+#buttonOptions{
+    display:flex;
+    justify-content: space-around;
+    /* border-style: solid; */
+}
+
+#clearButton{
+    align-self:center;
+}
+
+#sketchPad{
+    height: 500px;
+    width: 500px;
+    border-style: solid;
+    border-color: black;
+    grid-area: box;
+    margin: 2%;
+}
+
+#sketchPadInsert{
+    display: grid; 
+    /* grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(5, 1fr);  */
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+
+}
+
+.box{
+    height: 1fr;
+    width: 1fr;
+    background-color: white;
+    /* border-style: solid; */
+}
+
+.box:hover{
+    background-color: black;
+}
