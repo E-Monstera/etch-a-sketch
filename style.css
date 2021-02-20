@@ -34,6 +34,22 @@ body{
     /* border-style: solid; */
 }
 
+.sliderContainer{
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.slider{
+    width: 100%;
+    /* outline: none; */
+    height: 50px;
+}
+
+
+
+
+
+
 #clearButton{
     align-self:center;
 }
