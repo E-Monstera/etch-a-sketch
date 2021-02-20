@@ -18,16 +18,22 @@
             <div id="buttonOptions">
                 <button id = "blackButton">Black</button>
                 <button id = "rainbowButton">Colorful</button>
-                <button>Custom Color<input type="color" id="pixelColor" name="pixelColor" value="#78AFC8"></button>
+                <div id="customColor">
+                    <label id="pixelColorLabel">Custom Color:</label><input type="color" id="pixelColor" name="pixelColor" value="#78AFC8">
+                </div>
+
+                <!-- <button id="customerColorButton">Custom Color<input type="color" id="pixelColor" name="pixelColor" value="#78AFC8"></button> -->
             </div>
             <div id="pixelSize">
                 <p>Pixel Size:</p>
                 <div class="sliderContainer">
                     <input type="range" min="1" max="100" value="16" class="slider" id="pixelRange">
-                  </div>
+                </div>
+                <button id="clearButton">Clear</button>
             </div>
-            <div id="clearButton">
-                <button>Clear</button>
+            <div id="labels">
+                <p>Largest</p>
+                <p>Smallest</p>
             </div>
         </div>
 

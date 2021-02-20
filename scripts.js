@@ -1,5 +1,5 @@
 let size = 16;
-let newColor = 'blue';
+let newColor = '#F9BF7C';
 const sketchPad = document.querySelector('.sketchy');       //used to set the dimensions of the sketchpad
 const colorPicker = document.querySelector('#pixelColor');  //Constant for the color picker
 const blackButton = document.querySelector('#blackButton'); //Constant for button that changes the pixels black
@@ -36,7 +36,8 @@ function changeToBlack(){
 
 function clearGrid(){ 
     let clear = 'white';
-    divs.forEach((div) => {
+    const newDivs = document.querySelectorAll('.box');
+    newDivs.forEach((div) => {
         div.style.backgroundColor = clear;
         console.log("nope");
     });
