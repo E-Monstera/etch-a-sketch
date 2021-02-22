@@ -44,11 +44,12 @@ button{
 #header{
     grid-area: header;
     /* border-style: solid; */
+    margin-right: 20px;
 }
 
 #options{
     grid-area: buttons;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -62,6 +63,7 @@ button{
     padding: 2%;
     justify-content: space-around;
     /* border-style: solid; */
+    width: 100%;
 }
 
 
@@ -73,7 +75,7 @@ button{
     /* background-color: blue; */
 }
 .sliderContainer{
-    width: 50%;
+    width: 60%;
     /* border-style: dashed; */
     /* background-color: blue; */
 }
@@ -103,8 +105,6 @@ button{
 
 #sketchPadInsert{
     display: grid; 
-    /* grid-template-columns: repeat(5, 1fr); 
-    grid-template-rows: repeat(5, 1fr);  */
     border-style: solid;
     width: 500px;
     height: 500px;
@@ -115,7 +115,6 @@ button{
     height: 1fr;
     width: 1fr;
     background-color: white;
-    /* border-style: solid; */
 }
 
 .box:hover{
@@ -123,11 +122,7 @@ button{
 }
 
 #pixelColor{
-    /* padding: 0; */
-    /* margin: 0; */
-    /* width: 10px; */
     background-color: rgba(0, 0, 0, 0);
-    
     border-style: none;
 }
 
@@ -141,9 +136,8 @@ button{
     display: flex;
     font-size: .8em;
     justify-content: space-around;
-    /* background-color: rosybrown; */
     position: absolute;
     width: 18%;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-top: 6%;
 }
